@@ -1,0 +1,11 @@
+for filename in basilisk.dat minotaur.dat unicorn.dat 
+for> do
+for> echo $filename
+for> head -n 2 $filename | tail -n 1
+for> done
+basilisk.dat
+CLASSIFICATION: basiliscus vulgaris
+minotaur.dat
+CLASSIFICATION: bos hominus
+unicorn.dat
+CLASSIFICATION: equus monoceros
